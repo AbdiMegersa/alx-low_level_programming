@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  *main - entry point
  *Description: random number in n +ve/-ve
@@ -7,12 +6,11 @@
  */
 int main(void)
 {
-	int i;
-
-	for (i = 0; i < 10; i++)
-	{
-		putchar(i);
-	}
-	putchar('\n');
-	return (0);
+int num, i;
+for (num = 48, i = 0; i < 10; num++, i++)
+{
+putchar(num);
 }
+putchar(10);
+return (0);
+}}
