@@ -8,7 +8,8 @@
 int main(void)
 {
 	char low;
-	chat up;
+	char up;
+
 	for (char low = 'a'; low <= 'z'; low++)
 	{
 		putchar(low);
