@@ -6,7 +6,7 @@
  * this comment thing is
  * getting on my nerves
  * i mean does they read this sht
- * i hate you guys
+ * main - entry point
  */
 int main(void)
 {
