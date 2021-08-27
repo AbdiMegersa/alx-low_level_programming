@@ -1,9 +1,8 @@
 #include <stdio.h>
 
-/*
- * main - entry point
- * Description: print lowercase letters then upper case letters
- * return: 0 (Succcess)
+/*main - entry point
+ *Description: random number in n +ve/-ve
+ *Return: 0 on success
  */
 int main(void)
 {
