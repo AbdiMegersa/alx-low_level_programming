@@ -1,11 +1,10 @@
 #include "main.h"
 
 /*
- * main -Entry point
+ * print_alphabet -Entry point
  *
  * description : print alphabets
  *
- * return: (0) if success
  */
 void print_alphabet(void)
 {
