@@ -10,6 +10,8 @@ void positive_or_negative(void)
 {
 	int n;
 
+	n = 0;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
