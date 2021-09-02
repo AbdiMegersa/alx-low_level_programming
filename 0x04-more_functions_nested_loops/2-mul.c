@@ -1,11 +1,10 @@
 #include "main.h"
-
 /**
- *mul - checks for a digit.
- *@c: input.
+ *mul - multiplies two ints.
+ *@a: integer.
+ *@b: integer.
  *
- *Return: 1 if c is a digit
- *0 otherwise.
+ *Return: product.
  */
 int mul(int a, int b)
 {
