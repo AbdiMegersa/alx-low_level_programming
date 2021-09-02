@@ -1,9 +1,8 @@
 #include <stdio.h>
-
 /**
- * main - entry point
- * description - print the largest prime factor
- * Return: 0 (Success)
+ *main - largest prime facter of 612852475143.
+ *
+ *Return: 0
  */
 int main(void)
 {
@@ -14,8 +13,8 @@ int main(void)
 
 	while (x % 2 == 0)
 	{
-		pf  = 2;
-		x = x/2;
+		pf = 2;
+		x = x / 2;
 	}
 	for (i = 3; i <= x / 2; i = i + 2)
 	{
