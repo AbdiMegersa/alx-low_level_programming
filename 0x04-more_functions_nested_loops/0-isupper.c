@@ -1,4 +1,5 @@
 #include <main.h>
+#include <holberton.h>
 
 /**
  * _isupper -checks i letter is upper case
