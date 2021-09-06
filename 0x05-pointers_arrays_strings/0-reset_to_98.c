@@ -1,7 +1,9 @@
 /**
  *reset_to_98 - converts the value of the passed pointer to 98
- *parameter (n) - is the pointer(address) passed
- */
+ *@n - is the pointer(address) passed
+ *
+ *Return: void
+ * /
 void reset_to_98(int *n)
 {
 	*n = 98;
