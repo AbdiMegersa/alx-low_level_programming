@@ -3,7 +3,7 @@
  *@n - is the pointer(address) passed
  *
  *Return: void
- * /
+ */
 void reset_to_98(int *n)
 {
 	*n = 98;
