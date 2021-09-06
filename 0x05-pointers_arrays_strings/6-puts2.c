@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * puts2 - print other characters
- * @str: pointer
+ * @s: pointer
  *
  * Return: void
  */
@@ -14,16 +14,9 @@ void puts2(char *s)
 	{
 		i++;
 	}
-	for (j = 0; j < i; j++)
+	for (j = 0; j < i; j+=2)
 	{
-		if (j % 2 == 0)
-		{
-			_putchar(s[j]);
-		}
-		else if (j % 2 != 0)
-		{
-			continue;
-		}
+		_putchar(s[j]);
 	}
 	_putchar('\n');
 }
