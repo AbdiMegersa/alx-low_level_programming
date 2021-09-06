@@ -1,6 +1,6 @@
 /**
  *reset_to_98 - converts the value of the passed.
- *@n - pointer.
+ *@n:  pointer.
  *
  *Return: void
  */
