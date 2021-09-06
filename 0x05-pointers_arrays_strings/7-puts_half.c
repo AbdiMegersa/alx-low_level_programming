@@ -1,13 +1,13 @@
 #include "main.h"
 /**
  * puts_half - print half of the string
- * @s - string
+ * @s: string
  *
  * Return: (0)
  */
 void puts_half(char *s)
 {
-	int i, n;
+	int i, j, n;
 
 	i = 0;
 	while (s[i] != '\0')
@@ -22,7 +22,7 @@ void puts_half(char *s)
 	{
 		n = (i - 1) / 2;
 	}
-	for (i = 0; i < n; i++)
+	for (j = i; j >= n; j--)
 	{
 		_putchar(s[i]);
 	}
