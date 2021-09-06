@@ -1,4 +1,3 @@
-#include <cstring.h>
 /**
  *_strlen - return the length of the string passed
  *@s: pointer
@@ -7,5 +6,13 @@
  */
 int _strlen(char *s);
 {
-	return (strlen(s));
+	int len;
+
+	len = 0;
+	while (*s != '\0')
+	{
+		len++;
+		s++;
+	}
+	return (len);
 }
