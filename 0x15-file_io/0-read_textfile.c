@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*
- * ssize_t read_textfile - reads file and print the content of the file
+ * read_textfile - reads file and print the content of the file
  * @filename: name of the file
  * @letter: number of the size
  *
