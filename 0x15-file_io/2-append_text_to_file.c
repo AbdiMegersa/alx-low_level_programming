@@ -21,7 +21,7 @@ int appent_text_to_file(const char *filename, char *text_content)
 		i = 0;
 		while (text_content[i])
 			i++;
-		wr = write(filename, text_content, i);
+		rw = write(filename, text_content, i);
 		if (wr == -1)
 		{
 			close(file);
